@@ -14,7 +14,6 @@ const Weather = (props) => {
         <h4>
           Wind from the {props.weather.current_observation.wind_dir} at {props.weather.current_observation.wind_kph}kph
         </h4>
-        
       </div>
       <div>
         <p>{props.weather.current_observation.observation_time}</p>
